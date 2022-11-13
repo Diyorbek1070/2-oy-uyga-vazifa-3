@@ -1,0 +1,34 @@
+.section2>.container{
+  display: flex;
+  padding-left: 47px;
+  padding-right: 78.18px;
+  padding-top:130.12px;
+  gap: 32px;
+}
+
+.data__section__item{
+    max-width: 548px;
+    padding-top: 205px;
+    padding-bottom: 205.26px;
+    padding-right: 32px;
+}
+.data__section__item__heading{
+    font-size: 45px;
+    line-height: 65.25px;
+    padding-bottom: 30px;
+}
+.data__section__item__text{
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 600px;
+    color:darkgray;
+    padding-bottom: 50px;
+}
+.data__section__item__btn{
+    padding: 15px 40px;
+    background-color: #E58311;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #FFFFFF;
+    border: none;
+}

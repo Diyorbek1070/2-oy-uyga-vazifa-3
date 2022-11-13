@@ -1,0 +1,25 @@
+
+.header>.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 177px;
+    padding-bottom: 30px;
+}
+@mixin fontweit(){
+    text-decoration: none;
+    line-height: 23.4px;
+    font-size: 18px;
+    color: black;
+}
+.header__list{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.header__list__link1{
+    @include fontweit();
+}
+.header__list__link{
+    @include fontweit();
+}

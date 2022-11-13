@@ -1,0 +1,86 @@
+
+.banner__honeyspoon{
+ position: absolute;
+ left: 0px;
+}
+.banner>.container{
+    position: relative;
+    background-image: url("/images/banner_section.png");
+    height: 865px;
+    width: 100%;
+    background-size: cover;
+    padding-top:124px;
+    padding-left: 78px;
+    padding-bottom: 91px;
+    padding-right: 10.17px;
+}
+@mixin fontstyle {
+    font-size: 100px;
+    line-height: 130px;
+    position: absolute;
+
+}
+@mixin btnstyle {
+    padding: 18px 50px;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-family: 'Kodchasan', sans-serif;
+}
+.banner__container__bachtext{
+    background-image: url("/images/header__backtext.svg");
+    width:1408.7px;
+    height: 607px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.banner__container__bachtext__item1{
+    max-width: 803px;
+}
+.banner__container__bachtext__item1__textbox{
+    max-width: 803px;
+    height: 387px;
+    position: relative;
+}
+.bachtext__minihoney{
+    position: absolute;
+    top: 270px;
+    left: 130px
+}
+.bachtext__item1__text{
+    @include fontstyle();
+    left: 100px;
+    top: 10px
+}
+.bachtext__item1__text2{
+    @include fontstyle();
+    top: 160px;
+    left: 200px;
+    left: 240px;
+}
+.bachtext__item1__text3{
+    @include fontstyle();
+    top: 260px;
+    left: 390px;
+}
+.bachtext__item1__btn__btnbox{
+    display: flex;
+    gap: 30px;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.bachtext__item1__btn{
+    @include btnstyle();
+    background-color: black;
+    color: #FFFF;
+}
+.bachtext__item1__btn:hover{
+    background-color: rgb(48, 46, 46);
+}
+.bachtext__item1__btn2{
+    @include btnstyle();
+    background-color: transparent;
+} 
+.banner__container__bachtext__item2{
+    max-width: 686.83px;
+}

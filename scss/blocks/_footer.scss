@@ -1,0 +1,37 @@
+.footer{
+background: rgb(255,157,45);
+background: -moz-linear-gradient(90deg, rgba(255,157,45,1) 50%, rgba(255,216,119,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,157,45,1) 50%, rgba(255,216,119,1) 100%);
+background: linear-gradient(90deg, rgba(255,157,45,1) 50%, rgba(255,216,119,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9d2d",endColorstr="#ffd877",GradientType=1);
+}
+.footer>.container{
+    padding-left: 179px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 176.61px;
+    display: flex;
+}
+.footer__textbox{
+    max-width: 269px;
+    margin-left: 50px;
+}
+.footer__textbox__text{
+    font-weight: 500px;
+    line-height: 22.4px;
+    font-size: 14px;
+}
+.footer__icon{
+    margin-left: 88px;
+    max-width: 196.52px;
+    display: flex;
+    gap: 40px;
+    padding-top: 13px;
+}
+.footer__btnbox{
+    max-width: 301.29px;
+    margin-left: 173.58px;
+    display: flex;
+    gap: 20px;
+    padding-top: 3px;
+}
